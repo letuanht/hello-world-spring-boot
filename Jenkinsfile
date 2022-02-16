@@ -3,7 +3,7 @@ pipeline {
     stages {
          stage('git clone') {
             steps {
-                git 'https://github.com/letuanht/hello-world-java.git'
+                git 'https://github.com/letuanht/hello-world-spring-boot.git'
             }
         }
         stage('Create Docker image') {
